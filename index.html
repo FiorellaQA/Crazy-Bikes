@@ -32,11 +32,11 @@
           </div>
           <div class="form-group">
             <label for="inputPassword" class="sr-only">Contraseña</label>
-            <input type="password" id="input-password" pattern=".{6}" title="Debe contener 6 caracteres" class="form-control" placeholder="Ingrese su contraseña" required>
+            <input type="password" id="input-password" pattern=".{6,}" title="Debe contener 6 o más caracteres" class="form-control" placeholder="Ingrese su contraseña" required>
           </div>
           <div class="form-group">
-            <select class="form-control" id="select" required>
-              <option value="-1">Selecciona tu tipo de bici</option>
+            <select class="form-control" id="select">
+              <option selected="selected">Selecciona tu tipo de bici</option>
               <option value="urbana">Urbana</option>
               <option value="treking">Treking</option>
               <option value="electrica">Eléctrica</option>
